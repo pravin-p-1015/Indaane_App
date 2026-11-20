@@ -1,0 +1,1 @@
+"""Indaane store application package."""
