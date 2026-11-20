@@ -1,0 +1,2 @@
+# The app currently uses only Python's standard library.
+# Add third-party packages here; start.bat will install them before launch.

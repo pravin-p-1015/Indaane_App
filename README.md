@@ -1,11 +1,11 @@
 # Indaane Cylinder Store — Phase 3
 
-Local, offline cylinder store management application. It uses Python's standard library and SQLite; no internet connection or package installation is needed.
+Local, offline cylinder store management application. It currently uses Python's standard library and SQLite; no third-party packages are required.
 
 ## Start
 
-1. Install Python 3.10 or newer on the store computer.
-2. Double-click `start.bat`, or run `python app.py` from this folder.
+1. Double-click `start.bat`; it checks for Python 3.10 or newer and can install Python 3.12 with `winget` if needed. Packages listed in `requirements.txt` are installed before launch.
+2. Alternatively, install Python 3.10 or newer yourself and run `python app.py` from this folder.
 3. On the store computer, open [http://127.0.0.1:8765](http://127.0.0.1:8765). The command window also prints LAN URLs for other devices on the same private network.
 4. Sign in with username `admin` and initial password `admin123`.
 5. Change the initial password under **Settings & backup**.
